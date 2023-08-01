@@ -1,0 +1,13 @@
+npm init -> Initialize
+
+npm install <module name> -> install npm modules
+
+npm run <test> -> runs test (specified example on json)
+
+npm run <test2> -> runs test (specified example on json) 
+
+npm uninstall <module name> -> Uninstalls module
+
+npm i <module name>@<version> -> installs specific module version
+
+npm update -> updates module packages
