@@ -1,0 +1,50 @@
+npm -> node packege manager
+npm -> manejador de paquetes
+
+dependendia -> paquete que otro paquete necesita para funcionar 
+
+JSON -> JavaScript Object Notation
++ Formato de texto usado para almacenar y transportar informacion.
++ Los valores se representan como pares clave- valor (propiedades)
+
+ex.
+{
+    "titulo":"Aprende Node.js",
+    "numVistas":45642,
+    "numlikes":21123,
+    "temas:[
+        "Javascript",
+        "Node.js"
+    ],
+    "esPublico":true
+}
+
+Basics:
+*****  Inicializar  ******
+$ node init -> iniciar el archivo de package.json
+$ node init -y -> inicia el archivo package.json pero deja todo como default
+$ node init -- yes -> inicia el archivo package.json pero deja todo como default
+
+*****  Instalar Paquetes  ******
+$ npm i <nombre del paquete> -> instala el paquete en el proyecto
+$ npm install <nombre del paquete> -> instala el paquete en el proyecto
+
+ex. npm install express
+
+$ npm i -g <nombre del paquete> -> instala el paquete en todo el entorno de desarrollo
+
+*****  Instalar Versiones especificas  ******
+$ npm install <nombre del paquete>@<version>  -> instala el paquete en el proyecto, con la version descrita
+
+ex. npm install express@4.15.1
+
+*****  Instalar Dependencias  ******
+$ npm install  ->  instala todas las dependencias descritas en package.json
+
+*****  Instalar DevDependencies  ******
+$ npm install <nombre del paquete> --save-dev ->  instala todas las dependencias que solo son importantes para el entorno de desarrollo
+
+ex. npm install nodemon --save-dev
+
+*****  Desinstalar Paquetes  ******
+$ npm uninstall <nombre del paquete> -> desinstala el paquete en el proyecto
