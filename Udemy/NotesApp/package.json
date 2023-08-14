@@ -1,0 +1,15 @@
+{
+  "name": "notesapp",
+  "version": "0.0.1",
+  "description": "Notes App - Udemy Course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Emanuel ortega",
+  "license": "ISC",
+  "dependencies": {
+    "validator": "^10.8.0"
+  }
+}
